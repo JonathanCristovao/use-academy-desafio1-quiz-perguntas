@@ -1,0 +1,4 @@
+#Mon Sep 20 18:36:34 BRT 2021
+base.0=C\:\\Users\\jonat\\OneDrive\\Documentos\\GIT\\Desafio_0\\desafio_1\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
