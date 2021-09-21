@@ -34,19 +34,21 @@ class _MyContainerState extends State<MyContainer> {
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold),
           ),
-          Text("Responda 10 perguntas e veja sua pontuação no fim!"),
+          const Text("Responda 10 perguntas e veja sua pontuação no fim!"),
           Container(
-            margin: EdgeInsets.all(16),
+            margin: const EdgeInsets.all(16),
             height: 50.0,
             width: double.infinity,
             child: RaisedButton(
               color: Colors.indigo,
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => tela_perguntas()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const tela_perguntas()));
               },
-              shape: StadiumBorder(),
-              child: Text(
+              shape: const StadiumBorder(),
+              child: const Text(
                 'Start!',
                 style: TextStyle(
                   color: Colors.white,
